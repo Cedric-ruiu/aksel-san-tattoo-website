@@ -22,6 +22,23 @@ if (form) {
   });
 }
 
+// Carte façade : charge l'iframe OpenStreetMap seulement au clic (perf /contact/)
+var mapFacade = document.querySelector("#map-facade");
+if (mapFacade) {
+  mapFacade.querySelector(".map-facade-btn").addEventListener("click", () => {
+    var iframe = document.createElement("iframe");
+    iframe.title = "Plan d'accès Asphalt Jungle, Ostwald";
+    iframe.src = mapFacade.dataset.src;
+    iframe.width = "100%";
+    iframe.height = "300";
+    iframe.style.border = "0";
+    iframe.style.display = "block";
+    iframe.loading = "lazy";
+    iframe.allowFullscreen = true;
+    mapFacade.replaceWith(iframe);
+  });
+}
+
 var body = document.querySelector("body");
 var menuTrigger = document.querySelector("#toggle-main-menu-mobile");
 var menuContainer = document.querySelector("#main-menu-mobile");
