@@ -3,7 +3,7 @@ layout: portfolio
 title: "Portfolio tatouage japonais & pop culture"
 description: "Découvrez le portfolio d'Aksel San, tatoueur à Strasbourg — réalisations en japonais, pop culture, créations sur mesure et cover-up."
 ogImage: /portfolio/portfolio01.webp
-heroHeading: "Portfolio"
+heroHeading: "Portfolio — tatouages japonais, pop culture & noir et gris"
 heroSubHeading: "Un aperçu de mon travail"
 heroBackground: "/portfolio/portfolio-fond.webp"
 permalink: /portfolio/

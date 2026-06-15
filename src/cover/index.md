@@ -3,8 +3,8 @@ layout: page
 title: "Cover-up de tatouage à Strasbourg"
 description: "Spécialiste du cover-up à Strasbourg — Aksel San transforme vos anciens tatouages en créations modernes et esthétiques. Étude au cas par cas."
 ogImage: /cover/cover-fond.webp
-heroHeading: "Cover"
-heroSubHeading: "Recouvrir un ancien tatouage"
+heroHeading: "Cover-up : recouvrir un ancien tatouage"
+heroSubHeading: "Donner une seconde vie à un tatouage"
 heroBackground: "/cover/cover-fond.webp"
 permalink: /cover/
 ---
