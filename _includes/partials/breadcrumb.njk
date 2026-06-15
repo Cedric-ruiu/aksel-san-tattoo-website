@@ -1,0 +1,24 @@
+{# Fil d'Ariane — pages internes uniquement (l'accueil n'en a pas) #}
+{% if page.url != "/" %}
+{%- set crumbName = "" -%}
+{%- for item in site.nav -%}{%- if item.url == page.url -%}{%- set crumbName = item.name -%}{%- endif -%}{%- endfor -%}
+{%- if not crumbName -%}{%- set crumbName = breadcrumbLabel or title -%}{%- endif -%}
+<nav class="breadcrumb-nav" aria-label="Fil d'Ariane">
+  <div class="container">
+    <ol class="breadcrumb-list">
+      <li><a href="/">Accueil</a></li>
+      <li aria-current="page">{{ crumbName }}</li>
+    </ol>
+  </div>
+</nav>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "{{ site.baseURL }}/" },
+    { "@type": "ListItem", "position": 2, "name": "{{ crumbName }}", "item": "{{ site.baseURL }}{{ page.url }}" }
+  ]
+}
+</script>
+{% endif %}
