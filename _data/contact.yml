@@ -3,6 +3,8 @@ artist: "Aksel San"
 studio: "Asphalt Jungle"
 email: "contact@akselsan-tattoo.com"
 phone: "06 71 51 96 17"
+# Téléphone au format international E.164 (pour le balisage schema.org)
+phoneE164: "+33671519617"
 address: "22 rue de Lingolsheim\n67540 Ostwald"
 social_handle: "aksel.san.tattoo"
 
