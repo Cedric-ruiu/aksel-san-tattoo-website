@@ -84,10 +84,11 @@
 </head>
 
 <body class="page {% block bodyClasses %}{% endblock %}">
+  <a href="#main-content" class="skip-link">Aller au contenu</a>
   {% include "partials/main-menu-mobile.njk" %}
   <div id="wrapper" class="wrapper">
     {% include "partials/header.njk" %}
-    <main>{% block main %}{% endblock %}</main>
+    <main id="main-content">{% block main %}{% endblock %}</main>
   </div>
 
   {% include "partials/footer.njk" %}
