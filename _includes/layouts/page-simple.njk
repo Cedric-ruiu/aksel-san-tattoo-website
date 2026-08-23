@@ -5,11 +5,13 @@
 {% block main %}
 
 {% include "partials/hero-setheight.njk" %}
+{% include "partials/breadcrumb.njk" %}
 
 <div class="container pt-4 pb-8 pt-md-6 pb-md-12">
   <div class="row justify-content-center">
     <div class="col-12 col-md-8">
       {{ content | safe }}
+      {% include "partials/cta-appointment.njk" %}
     </div>
   </div>
 </div>

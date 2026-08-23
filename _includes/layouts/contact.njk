@@ -5,6 +5,7 @@
 {% block main %}
 
 {% include "partials/hero-setheight.njk" %}
+{% include "partials/breadcrumb.njk" %}
 
 <div class="container pt-4 pb-8 pt-md-6 pb-md-12">
 
@@ -82,15 +83,13 @@
       <div class="mt-4">
         <h3>Plan d'accès</h3>
         <div style="border-radius:4px;overflow:hidden;margin-top:1rem;">
-          <iframe
-            title="Plan d'accès Asphalt Jungle, Ostwald"
-            src="https://www.openstreetmap.org/export/embed.html?bbox=7.694%2C48.540%2C7.712%2C48.550&layer=mapnik&marker=48.5451%2C7.7031"
-            width="100%"
-            height="300"
-            style="border:0;display:block;"
-            loading="lazy"
-            allowfullscreen
-          ></iframe>
+          <div
+            id="map-facade"
+            class="map-facade"
+            data-src="https://www.openstreetmap.org/export/embed.html?bbox=7.694%2C48.540%2C7.712%2C48.550&layer=mapnik&marker=48.5451%2C7.7031"
+          >
+            <button type="button" class="btn btn-primary map-facade-btn">Afficher le plan d'accès</button>
+          </div>
           <small><a href="https://www.openstreetmap.org/?mlat=48.5451&mlon=7.7031#map=16/48.5451/7.7031" target="_blank" rel="noopener noreferrer">Voir en plein écran</a></small>
         </div>
       </div>

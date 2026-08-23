@@ -22,7 +22,7 @@
           </ul>
           <ul>
             {% if contact.phone %}
-            <li><strong>Téléphone : </strong>{{ contact.phone }}</li>
+            <li><strong>Téléphone : </strong><a href="tel:{{ contact.phone | replace(' ', '') }}">{{ contact.phone }}</a></li>
             {% endif %}
             {% if contact.email %}
             <li><strong>Email : </strong><a href="mailto:{{ contact.email }}">{{ contact.email }}</a></li>

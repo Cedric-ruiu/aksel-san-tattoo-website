@@ -3,8 +3,8 @@ layout: page
 title: "Flashs disponibles à tatouer à Strasbourg"
 description: "Flashs disponibles à tatouer chez Aksel San Tattoo à Strasbourg. Motifs originaux prêts à être réalisés, placements et couleurs adaptables."
 ogImage: /flashs/flashs01.webp
-heroHeading: "Flashs"
-heroSubHeading: "Motifs disponibles à tatouer"
+heroHeading: "Flashs disponibles à tatouer"
+heroSubHeading: "Des motifs originaux prêts à poser"
 heroBackground: "/flashs/flashs-fond.webp"
 permalink: /flashs/
 ---
@@ -23,10 +23,10 @@ Oui, dans une certaine mesure. Le dessin lui-même reste fixe — c'est ce qui e
 
 <div class="row g-3 mt-2 mb-4">
   <div class="col-12 col-sm-6">
-    <img src="/flashs/flashs01.webp" alt="Flash disponible 1" width="1080" height="1350" class="img-fluid w-100" loading="lazy">
+    <img src="/flashs/flashs01.webp" alt="Planche de flashs en style japonais (noir et gris) : poisson rouge, poisson-chat namazu et sa calebasse, masque de démon hannya et grenouille tenant une feuille" width="1080" height="1350" class="img-fluid w-100" loading="lazy">
   </div>
   <div class="col-12 col-sm-6">
-    <img src="/flashs/flashs02.webp" alt="Flash disponible 2" width="1080" height="1350" class="img-fluid w-100" loading="lazy">
+    <img src="/flashs/flashs02.webp" alt="Planche de flashs en style japonais : chrysanthème, crapaud yōkai brandissant un trident enflammé, bol de ramen en forme de chat et poisson-globe (fugu)" width="1080" height="1350" class="img-fluid w-100" loading="lazy">
   </div>
 </div>
 

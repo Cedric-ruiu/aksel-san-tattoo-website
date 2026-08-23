@@ -10,6 +10,12 @@ p {
   font-family: $font-family-base;
   font-weight: $font-weight-thin;
 }
+// Liens dans le corps de texte : soulignés pour rester distinguables
+// sans dépendre uniquement de la couleur (accessibilité, daltonisme)
+main p a,
+main li a {
+  text-decoration: underline;
+}
 h1 {
   font-size: 20px;
   font-family: $font-family-heading;

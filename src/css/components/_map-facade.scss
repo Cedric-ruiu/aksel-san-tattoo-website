@@ -1,0 +1,9 @@
+// Façade de carte — placeholder cliquable avant le chargement de l'iframe
+.map-facade {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  background: var(--color-gris);
+  background-image: linear-gradient(135deg, #4c443c 0%, var(--color-gris) 100%);
+}

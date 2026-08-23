@@ -1,0 +1,31 @@
+// Fil d'Ariane
+.breadcrumb-nav {
+  padding-top: 1rem;
+}
+
+.breadcrumb-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.85rem;
+
+  li + li::before {
+    content: "›";
+    margin-right: 0.4rem;
+    color: var(--color-gris);
+  }
+
+  a {
+    color: var(--color-gris);
+    text-decoration: underline;
+  }
+
+  [aria-current="page"] {
+    color: var(--color-gris);
+    font-weight: 700;
+  }
+}

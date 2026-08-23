@@ -23,6 +23,27 @@
       margin-top: 0;
     }
   }
+  .footer-legal {
+    list-style: none;
+    margin: 10px 0 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    li {
+      display: inline-block;
+      margin: 0;
+    }
+    a {
+      color: lighten($secondary, 40%);
+      font-size: 0.8rem;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
   ul {
     list-style: none;
     margin: 0;

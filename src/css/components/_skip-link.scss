@@ -1,0 +1,15 @@
+// Lien d'évitement clavier — visible uniquement au focus
+.skip-link {
+  position: absolute;
+  top: 0;
+  left: -999px;
+  z-index: 10000;
+  padding: 0.75rem 1rem;
+  background: var(--color-gris);
+  color: #fff;
+  text-decoration: none;
+
+  &:focus {
+    left: 0;
+  }
+}
